@@ -4,6 +4,7 @@ const checkboxs = document.querySelectorAll(".checkbox");
 const includeLabels = document.querySelectorAll(".include-label");
 const btn = document.querySelector("button");
 const password = document.querySelector("#password");
+const copy = document.getElementById("copy");
 
 lengthValue.textContent = slider.value;
 
@@ -64,3 +65,12 @@ function generatePassword(length, upperCase, lowerCase, symbols, numbers) {
   console.log(str);
   return str;
 }
+copy.addEventListener("click", (event) => {
+  navigator.clipboard.writeText(password.value);
+  if (password.value !== "") {
+    event.target.innerText = "check";
+    setTimeout(() => {
+      event.target.innerText = "content_copy";
+    }, 3000);
+  }
+});
