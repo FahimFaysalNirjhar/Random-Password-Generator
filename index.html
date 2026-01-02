@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy,radio_button_unchecked"
     />
   </head>
   <body>
@@ -31,6 +31,42 @@
         <span>9</span>
       </div>
       <input type="range" name="" id="slider" min="4" max="20" />
+      <!-- uppercase -->
+      <div class="row">
+        <span class="material-symbols-outlined checkbox">
+          radio_button_unchecked</span
+        >
+        <label for="upparCase" class="include-label"
+          >Include Uppercase Letters(A-Z)</label
+        >
+        <input type="checkbox" name="" id="upparCase" />
+      </div>
+      <!-- lowercase -->
+      <div class="row">
+        <span class="material-symbols-outlined checkbox">
+          radio_button_unchecked</span
+        >
+        <label for="lowerCase" class="include-label"
+          >Include Lowercase Letters(a-z)</label
+        >
+        <input type="checkbox" name="" id="lowerCase" />
+      </div>
+      <!--symbols  -->
+      <div class="row">
+        <span class="material-symbols-outlined checkbox">
+          radio_button_unchecked</span
+        >
+        <label for="symbols" class="include-label">Include Symbols(#@-!)</label>
+        <input type="checkbox" name="" id="symbols" />
+      </div>
+      <!-- numbers -->
+      <div class="row">
+        <span class="material-symbols-outlined checkbox">
+          radio_button_unchecked</span
+        >
+        <label for="numbers" class="include-label">Include Numbers(0-9)</label>
+        <input type="checkbox" name="" id="numbers" />
+      </div>
     </div>
   </body>
 </html>

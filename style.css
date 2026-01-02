@@ -83,3 +83,18 @@ h2 span {
   border-radius: 50%;
   outline: 2px solid #4400ff;
 }
+.row {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(107, 107, 107, 0.4);
+  padding: 10px;
+  border-radius: 5px;
+}
+.include-label {
+  font-weight: 600;
+  margin-inline: 3px;
+}
+.checkbox {
+  color: #1a237e;
+}
