@@ -114,8 +114,8 @@ button {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 400) {
+@media screen and (max-width: 400px) {
   .container {
-    width: 100%;
+    max-width: 100%;
   }
 }
